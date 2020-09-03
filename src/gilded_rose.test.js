@@ -51,4 +51,10 @@
     expect(quality.some(({value}) => value < 50)).toBe(false);
   }));
 
+  //"Sulfuras", being a legendary item, 
+  it('Sulfuras should being a legendary item', (() => {
+    const name = items.map(item => item.name)
+    expect(name.some(({value}) => value === "Sulfuras")).toEqual(true);
+  }));
+  
 }));

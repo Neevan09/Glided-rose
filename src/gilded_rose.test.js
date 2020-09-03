@@ -48,7 +48,7 @@
   //The quality of an item is never more than 50
   it('quality of an item should never more than 50', (() => {
     const quality = items.map(item => item.quality)
-    expect(quality.some(({value}) => value < 50)).toBe(true);
+    expect(quality.some(({value}) => value < 50)).toBe(false);
   }));
 
 }));

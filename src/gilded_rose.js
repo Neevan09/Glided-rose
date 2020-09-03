@@ -61,4 +61,11 @@ const update_quality = () => {
   }
 }
 
-module.exports = update_quality;
+// module.exports = update_quality;
+// module.exports = {
+//   update_quality:function() {},
+//   // items: []
+// }
+
+exports.update_quality = function() {};
+exports.items = [];

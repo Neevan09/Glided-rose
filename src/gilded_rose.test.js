@@ -36,7 +36,7 @@
    //sell_in days is less then zero, quality degrades twice as fast
    it('All items should have sell_in less than zero', (() => {
     const sell_in = items.map(item => item.sell_in)
-    expect(sell_in.some(({value}) => value < 0)).toBe(true);
+    expect(sell_in.some(({value}) => value < 0)).toBe(false);
   }));
 
   //  //The quality of an item is never negative

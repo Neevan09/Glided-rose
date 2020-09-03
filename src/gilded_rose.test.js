@@ -11,11 +11,11 @@
 
 
  describe('items', function () {
-   it('should have sell_in', function () {
+   it('should have items object', function () {
      expect(typeof items).toBe("object");
    });
 
-   it('should have sell_in name', function () {
-     expect(items).toBe([]);
+   it('should have items', function () {
+     expect(items).toStrictEqual([]);
    });
  });

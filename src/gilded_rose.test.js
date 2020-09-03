@@ -1,5 +1,5 @@
- const {Item} = require('./gilded_rose')
-
-it('should be defined', () => {    
-    expect(Item).toBe();
+ describe('update_quality', function() {
+  it('should be a function', function() {
+    expect(typeof update_quality).toBe("function");
   });
+});

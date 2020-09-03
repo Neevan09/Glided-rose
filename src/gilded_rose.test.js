@@ -16,7 +16,7 @@
    });
 
    it('should have items', function () {
-    // const itemArr = items.map(item => item.sell_in)
+    const itemArr = items.map(item => item.sell_in)
     expect(itemArr).not.toBeNull();
    });
 

@@ -39,10 +39,10 @@
     expect(sell_in.some(({value}) => value < 0)).toBe(false);
   }));
 
-  //  //The quality of an item is never negative
-  //  it('quality of an item should never negative', (() => {
-  //   const sell_in = items.map(item => item.sell_in)
-  //   expect(sell_in.map(value => value < 0)).toBeLessThan(0);
-  // }));
+   //The quality of an item is never negative
+   it('quality of an item should never negative', (() => {
+    const quality = items.map(item => item.quality)
+    expect(quality.some(({value}) => value < 0)).toBe(true);
+  }));
 
 }));

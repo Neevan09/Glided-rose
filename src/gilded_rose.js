@@ -68,4 +68,4 @@ const update_quality = () => {
 // }
 
 exports.update_quality = function() {};
-exports.items = [];
+exports.items = items;

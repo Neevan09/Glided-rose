@@ -16,6 +16,11 @@
    });
 
    it('should have items', function () {
-     expect(items).toStrictEqual([]);
+    // const itemArr = items.map(item => item.sell_in)
+    expect(itemArr).not.toBeNull();
    });
+
+   it('should have items', function () {    
+    expect(items.length).toEqual(6);
+  });
  });
